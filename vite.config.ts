@@ -1,5 +1,7 @@
+// vite.config.ts
 import path from "path"
 import react from "@vitejs/plugin-react"
+// @ts-expect-error
 import eslint from 'vite-plugin-eslint';
 import { defineConfig } from "vite"
  
